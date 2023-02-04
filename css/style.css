@@ -12,6 +12,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--clr-white);
+  font-size: 16px;
 }
 
 a {
@@ -40,8 +41,8 @@ ul {
 .nav-list a {
   color: var(--clr-theme);
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .nav-list a:hover,
@@ -55,9 +56,10 @@ ul {
 
 .nav-link a {
   color: var(--clr-text);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-style: normal;
 }
 
 .nav-link a:hover,
@@ -72,10 +74,10 @@ ul {
 
 .hero-logo {
   color: var(--clr-white);
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.1;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .hero-btn {
@@ -85,10 +87,11 @@ ul {
   border-radius: 4px;
   font-family: inherit;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -98,38 +101,34 @@ ul {
 
 /* Features */
 
-.features-list .title {
+.section-subtitle {
   color: var(--clr-theme);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
-.skill-text {
+.text {
   color: var(--clr-text);
-  font-weight: 400;
-  font-size: 16px;
-  line-break: 1.5;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* What are we doing */
 
-.job-title {
-  font-weight: 700;
+.section-title {
   font-size: 36px;
   line-height: 1.1;
   text-align: center;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
 }
+
+/* Our team */
 
 .our-team {
   background-color: var(--clr-smoke);
-}
-
-.team-head {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.1;
 }
 
 .team-person {
@@ -139,19 +138,11 @@ ul {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-list .name {
-  color: var(--clr-theme);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+.team-list .subtitle {
   text-align: center;
 }
 
-.team-position {
-  color: var(--clr-text);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
+.team-list .text {
   text-align: center;
 }
 
@@ -167,9 +158,8 @@ footer {
 
 .foot-text {
   color: var(--clr-border);
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .logo-clr-foot {
@@ -188,6 +178,8 @@ footer {
   border: 1px solid var(--clr-border);
   border-radius: 4px;
   color: var(--clr-brand);
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .filter-btn:hover {
@@ -199,18 +191,4 @@ footer {
 
 .project-link {
   border: 1px solid var(--clr-border);
-}
-
-.project-name {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  color: var(--clr-theme);
-}
-
-.project-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--clr-theme);
 }
